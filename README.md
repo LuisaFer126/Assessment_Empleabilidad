@@ -34,7 +34,7 @@ CoursePlatform/
    Desde la carpeta `Backend`:
    ```bash
   cd .\Backend
-   dotnet ef database update --project .\src\CoursePlatform.Infrastructure\CoursePlatform.Infrastructure.csproj --startup-project .\src\CoursePlatform.API\CoursePlatform.API.csproj
+  dotnet ef database update --project .\src\CoursePlatform.Infrastructure\CoursePlatform.Infrastructure.csproj --startup-project .\src\CoursePlatform.API\CoursePlatform.API.csproj
    ```
 
 3. **Ejecutar API**:
