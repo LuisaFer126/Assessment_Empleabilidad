@@ -33,12 +33,14 @@ CoursePlatform/
 2. **Aplicar Migraciones**:
    Desde la carpeta `Backend`:
    ```bash
-   dotnet ef database update --project src/CoursePlatform.Infrastructure/CoursePlatform.Infrastructure.csproj --startup-project src/CoursePlatform.API/CoursePlatform.API.csproj
+  cd .\Backend
+   dotnet ef database update --project .\src\CoursePlatform.Infrastructure\CoursePlatform.Infrastructure.csproj --startup-project .\src\CoursePlatform.API\CoursePlatform.API.csproj
    ```
 
 3. **Ejecutar API**:
    ```bash
-   dotnet run --project src/CoursePlatform.API/CoursePlatform.API.csproj
+   cd .\Backend
+   dotnet run --project .\src\CoursePlatform.API\CoursePlatform.API.csproj
    ```
    La API estará disponible en `http://localhost:5032` (o similar, ver consola).
    
